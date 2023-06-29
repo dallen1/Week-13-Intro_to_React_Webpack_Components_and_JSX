@@ -7,14 +7,14 @@ export default class LoginForm extends React.Component {
             <form>
                 <h3>Log In</h3>
                 <div className="form-group">
-                    <label htmlFor="uName">User Name:</label><br></br>
-                    <input type="text" className="form-control" id="uName"></input>
+                    <label htmlFor="uname">User Name:</label><br></br>
+                    <input type="text" id="uname"></input>
                 </div>
                 <div className="form-group">
                     <label htmlFor="passwd">Password:</label><br></br>
-                    <input type="password" className="form-control" id="passwd"></input>
+                    <input type="password" id="passwd"></input>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
         )
