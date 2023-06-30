@@ -20,4 +20,30 @@ justify-content: center;
 .loginForm > form {
   border: 3px solid green;
   padding: 1em;
+  margin-top: 2em;
 }
+
+.navBar {
+  background-color: lightgray;
+  display: flex;
+  font-weight: 600;
+  height: 4em;
+  width: 100%;
+}
+
+.navBar > .leftNav > a > img {
+  height: 75%;
+  justify-content: left;
+  padding: .5em 2em;
+}
+
+.navBar > .rightNav {
+ margin-left: auto;
+ padding: .5em 2em;
+
+}
+
+.navBar > .rightNav > a {
+  padding: .5em;
+  
+ }
