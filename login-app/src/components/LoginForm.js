@@ -17,6 +17,6 @@ export default class LoginForm extends React.Component {
                 <button type="submit">Submit</button>
             </form>
         </div>
-        )
-    }
+        );
+    };
 };
